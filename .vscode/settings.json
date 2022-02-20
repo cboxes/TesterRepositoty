@@ -1,0 +1,13 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Junit\\junit-4.13.2.jar",
+        "c:\\Mockito\\mockito-all-2.0.2-beta.jar",
+        "c:\\Junit\\hamcrest-core-1.2.jar",
+        "c:\\Junit\\hamcrest-core-2.2.jar",
+        "c:\\Mockito\\powermock-core-2.0.9.jar",
+        "c:\\Mockito\\powermock-reflect-2.0.9.jar",
+        "c:\\Mockito\\powermock-module-junit4-rule-2.0.9.jar",
+        "c:\\Mockito\\powermock-module-junit4-common-2.0.9.jar"
+    ]
+}
