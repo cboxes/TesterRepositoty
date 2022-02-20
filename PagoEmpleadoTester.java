@@ -14,7 +14,7 @@ public class PagoEmpleadoTester {
 	 }
 
 	 public void setUp(){
-		//Create a portfolio object which is to be tested		
+		//Create a  object which is to be tested		
 		pagoEmpleado = new PagoEmpleado();	
 
 	
@@ -22,8 +22,6 @@ public class PagoEmpleadoTester {
 		//empleado = mock(Empleados.class);	
 		calculaPago = mock(CalculaPago.class);
 	
-		//set the stockService to the portfolio
-		//empleado.nombre = "";
 	 }
 	 public boolean testValue(){
     	   
@@ -37,13 +35,8 @@ public class PagoEmpleadoTester {
 		Empleado[2]  = new Empleados("PAT","SA", dHora1I,dHora1F);
 			
    
-		//stocks.add(googleStock);
-		//stocks.add(microsoftStock);
-  
-		//add stocks to the portfolio
-		//portfolio.setStocks(stocks);
-  
-		//mock the behavior of stock service to return the value of various stocks
+	
+		//mock 
 		when(calculaPago.dRangoHoras("MO", dHoraI, dHoraF)).thenReturn(20.00);
 		when(calculaPago.dRangoHoras("SA", dHora1I, dHora1F)).thenReturn(10.00);		
   
