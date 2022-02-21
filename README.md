@@ -71,7 +71,7 @@ PagoEmpleado
    Inside this created folder copy the downloaded files.
    Go to windows explorer and type "cmd" to open a command prompt.
    1) Compile the java files as follows:
-     C:\Solucion\javac Validar.java CalculaPago.java Employees.java PagoEmpleado.java PagoEmpleadoTester.java
+     C:\Solucion\javac Validar.java CalculaPago.java Empleados.java PagoEmpleado.java PagoEmpleadoTester.java
      and then press <Enter>.
    2) Run the following:
       java PagoEmpleado
