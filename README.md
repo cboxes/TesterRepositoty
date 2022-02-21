@@ -26,9 +26,9 @@ PagoEmpleado
   ASTRID=MO10:00-12:00,TH12:00-14:00,SU20:00-21:00
 
   In the case of not being with the indicated format, the program will indicate which line will not be processed for 
-  the calculation.
-  Payment for each employee.
-  It also validates that the hours are numbers.
+  the calculation:
+    Payment for each employee.
+    It also validates that the hours are numbers.
 
    Architecture
    ------------
@@ -43,7 +43,7 @@ PagoEmpleado
   Documentation
   -------------
 
-  The most up-to-date documentation can be found at https://maven.apache.org/.
+  The most up-to-date documentation can be found at https://github.com/cboxes/TesterRepositoty.
 
 
   System Requirements
