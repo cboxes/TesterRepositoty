@@ -6,7 +6,6 @@ import java.time.*;
 
 public class PagoEmpleado {
     public static Empleados[] txtExtraeArchivo(File file){
-        //StringBuilder result = new StringBuilder();
 	Empleados[] Empleado = new Empleados[20];
 	int LineaNum = 0;
    
