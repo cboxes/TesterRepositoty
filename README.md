@@ -87,7 +87,7 @@ PagoEmpleado
    -----------------
 
    Run the following:
-      java PaymentEmployeeTester
+      java --add-opens java.base/java.lang=ALL-UNNAMED PagoEmpleadoTester
 
    The output should be:
                        pass
