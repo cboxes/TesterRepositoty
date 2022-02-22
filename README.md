@@ -71,12 +71,12 @@ PagoEmpleado
    Inside this created folder copy the downloaded files.
    Go to windows explorer and type "cmd" to open a command prompt.
    1) Compile the java files as follows:
-     C:\Solucion\javac Validar.java CalculaPago.java Empleados.java PagoEmpleado.java PagoEmpleadoTester.java
+     C:\Solucion>javac Validar.java CalculaPago.java Empleados.java PagoEmpleado.java PagoEmpleadoTester.java
      and then press <Enter>.
    2) Run the following:
       java PagoEmpleado
 
-   C:\Solution>java PagoEmpleado
+   C:\Solucion>java PagoEmpleado
    The amount to pay RENE is: 100.0 USD
    The amount to pay ASTRID is: 60.0 USD
    The amount to pay SAUL is: 85.0 USD
@@ -85,9 +85,15 @@ PagoEmpleado
 
    Unit tests
    -----------------
-
-   Run the following:
-      java --add-opens java.base/java.lang=ALL-UNNAMED PagoEmpleadoTester
-
-   The output should be:
-                       pass
+   In this example, we've created a mock of CalculaPago to get the dummy pay of some employees and unit tested a java class named PagoEmpleado.
+   Step 1 - Test the PagoEmpleado class.
+   Let's test the PagoEmpleado class, by injecting in it a mock of CalculoPago. Mock will be created by Mockito.
+   
+   Step 2 − Verify the result
+   Now run the PagoEmpleadoTester to see the result:
+ 
+   C:\Solucion>java --add-opens java.base/java.lang=ALL-UNNAMED PagoEmpleadoTester
+  
+   Verify the Output
+   
+   pass
