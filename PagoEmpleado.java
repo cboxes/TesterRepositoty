@@ -55,6 +55,6 @@ public class PagoEmpleado {
     public static void main(String[] args){
         File file = new File("./"+"file_hour.txt"); //directory de almacenamiento de archivo txt, puede modificarlo según su propia ruta
 		Empleados[] Empleado = txtExtraeArchivo(file);
-    	new CalculaPago(Empleado);
+    	new CalculaPago(Empleado,0.00);
     }
 }

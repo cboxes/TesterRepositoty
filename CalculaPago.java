@@ -2,8 +2,10 @@ import java.time.*;
 public class CalculaPago {
 	Double valorHoraT;
 
-public CalculaPago(Empleados[] Empleado){
+
+public CalculaPago(Empleados[] Empleado,Double valorHoraT){
 	
+	this.valorHoraT = valorHoraT;
 	LocalTime dHoraI;
 	LocalTime dHoraF;
     Double valorHora = 0.00;
