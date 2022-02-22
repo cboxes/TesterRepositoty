@@ -42,8 +42,8 @@ public class PagoEmpleadoTester {
 		when(calculaPago.dRangoHoras("SA", dHora1I, dHora1F)).thenReturn(10.00);		
   
 		
-		calculaPago.valorHoraT = 100.00;
+        calculaPago.valorHoraT=100.00;
 		Double marketValue = calculaPago.valorHoraT;
-		return marketValue == 100;
+		return marketValue == 100.00;
 	 }
 }
