@@ -86,6 +86,7 @@ PagoEmpleado
    Unit tests
    -----------------
    In this example, we've created a mock of CalculaPago to get the dummy pay of some employees and unit tested a java class named PagoEmpleado.
+  
    Step 1 - Test the PagoEmpleado class.
    Let's test the PagoEmpleado class, by injecting in it a mock of CalculoPago. Mock will be created by Mockito.
    
