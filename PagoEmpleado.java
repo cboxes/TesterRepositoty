@@ -1,12 +1,13 @@
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
+import java.util.Arrays;
 import java.time.*;
 
 
 public class PagoEmpleado {
     public static Empleados[] txtExtraeArchivo(File file){
-	Empleados[] Empleado = new Empleados[20];
+	Empleados[] Empleado = new Empleados[100];
 	int LineaNum = 0;
    
 	Validar dato = new Validar();    
@@ -42,12 +43,13 @@ public class PagoEmpleado {
 				}			
 			LineaNum++;
 			}
-            }
-            br.close();    
+        }
+        br.close();    
         }catch(Exception e){
             e.printStackTrace();
-        }  
-        return Empleado;
+        }
+		Empleados[] EmpleadoNew = Arrays.copyOf(Empleado, LineaNum);
+        return EmpleadoNew;
     }
 
     public static void main(String[] args){
